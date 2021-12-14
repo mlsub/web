@@ -63,7 +63,7 @@ if($(".OwO").length > 0) {
 var OwO_demo = new OwO({
             container: document.getElementsByClassName('OwO')[0],
             target: document.getElementsByClassName('OwO-textarea')[0],
-            api: '/usr/themes/yingshiyihao/assets/OwO.json',
+            api: 'https://cdn.jsdelivr.net/gh/mlsub/web/usr/themes/yingshiyihao/assets/OwO.json',
             position: 'down',
             width: '66vw',
             maxHeight: '250px'
